@@ -7,8 +7,6 @@ python:
   - "3.2"
   - "3.3"
 # command to install dependencies
-env:
-  - PACKAGES=true
 install:
   - pip install setuptools --upgrade
   - pip install -e .[test]
