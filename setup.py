@@ -4,7 +4,7 @@ import os
 version = '0.1'
 
 long_description = (
-    open('README.md').read()
+    open('README.rst').read()
     + '\n' +
     'Contributors\n'
     '============\n'
@@ -47,9 +47,13 @@ setup(name='requests_extensions.adapters',
     ],
     extras_require={
         'test': tests_require,
+        'release': ['zest.releaser'],
     },
     entry_points="""
     # -*- Entry points: -*-
+    [console_scripts]
+    release = zest.releaser.release:main
+    prerelease= zest.releaser.prerelease:main
     """,
     test_suite = 'nose.collector',
 )
