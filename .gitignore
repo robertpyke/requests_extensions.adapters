@@ -56,3 +56,6 @@ docs/_build/
 # Misc.
 /share
 /man
+
+# Editor Swap Files
+*.swp
