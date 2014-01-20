@@ -50,5 +50,9 @@ coverage.xml
 docs/_build/
 
 # Virtual Env:
-include
-local
+/include
+/local
+
+# Misc.
+/share
+/man
