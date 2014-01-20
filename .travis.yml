@@ -14,4 +14,4 @@ install:
   - pip install -e .[test]
 # command to run tests
 script:
-  - python setup.py nosetests --with-coverage
+  - ./bin/nosetests --with-coverage
