@@ -1,4 +1,5 @@
-.. image:: https://travis-ci.org/robertpyke/requests_extensions.adapters.png?branch=master   :target: https://travis-ci.org/robertpyke/requests_extensions.adapters
+.. image:: https://travis-ci.org/robertpyke/requests_extensions.adapters.png?branch=master
+    :target: https://travis-ci.org/robertpyke/requests_extensions.adapters
 
 .. contents::
 
