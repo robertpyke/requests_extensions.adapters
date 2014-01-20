@@ -52,7 +52,6 @@ class HTTPAdapterExtensionWrapper(HTTPAdapter, BaseAdapterExtension):
 class FAdapterExtension(object):
     """ A Factory for selecting the appropriate AdapterExtension for a given
         request.
-
     """
 
     @classmethod
