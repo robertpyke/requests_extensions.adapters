@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '0.1'
+version = '0.1.1.dev0'
 
 long_description = (
     open('README.rst').read()
@@ -53,7 +53,9 @@ setup(name='requests_extensions.adapters',
     # -*- Entry points: -*-
     [console_scripts]
     release = zest.releaser.release:main
-    prerelease= zest.releaser.prerelease:main
+    prerelease = zest.releaser.prerelease:main
+    postrelease = zest.releaser.postrelease:main
+    fullrelease = zest.releaser.fullrelease:main
     """,
     test_suite = 'nose.collector',
 )
