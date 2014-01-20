@@ -1,7 +1,7 @@
 Changelog
 =========
 
-0.1.1 (unreleased)
+0.1.1 (2014-01-20)
 ------------------
 
 - Updated CHANGES.txt to include information on version 0.1.0
