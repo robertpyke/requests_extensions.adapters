@@ -1,6 +1,8 @@
 .. image:: https://travis-ci.org/robertpyke/requests_extensions.adapters.png?branch=master
     :target: https://travis-ci.org/robertpyke/requests_extensions.adapters
 
+`PyPI <https://pypi.python.org/pypi?:action=display&name=requests_extensions.adapters>`_
+
 .. contents::
 
 Introduction
