@@ -27,7 +27,7 @@ setup(name='requests_extensions.adapters',
       author='Robert Pyke',
       author_email='developer.robert.j.pyke@gmail.com',
       url='https://github.com/robertpyke/requests_extensions.adapters',
-      license='mit',
+      license='MIT',
       packages=find_packages('src'),
       package_dir = {'': 'src'},
       namespace_packages=['requests_extensions'],
@@ -36,6 +36,7 @@ setup(name='requests_extensions.adapters',
       install_requires=[
           'setuptools',
           # -*- Extra requirements: -*-
+          'requests',
       ],
       entry_points="""
       # -*- Entry points: -*-
