@@ -15,10 +15,10 @@ long_description = (
     + '\n')
 
 tests_require = [
-        'nose',
-        'coverage',
-        'mock',
-        'ipdb',
+    'nose',
+    'coverage',
+    'mock',
+    'ipdb',
 ]
 
 setup(name='requests_extensions.adapters',
